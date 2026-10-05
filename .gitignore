@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 虚拟环境（每个人自己建，不要提交）
+.venv/
+venv/
+env/
+ENV/
+
+# 构建产物
+build/
+dist/
+*.egg-info/
+
+# 编辑器 / IDE
+.vscode/
+.idea/
+*.swp
+
+# 系统和临时文件
+.DS_Store
+Thumbs.db
+*.log
+
+# 密钥和配置（绝对不能提交）
+.env
+*.key
+*.pem
